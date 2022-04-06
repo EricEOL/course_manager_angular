@@ -10,6 +10,20 @@ export class CourseService {
     return COURSES;
   }
 
+  retrieveById(id: number): Course {
+    const courseFound = COURSES.find((course: Course) => course.id == id);
+    if(!courseFound) throw new Error("Não existe curso com esse id.");
+    
+    return courseFound;  
+  }
+
+  save(course: Course) {
+    if(course.id) {
+      const index = COURSES.findIndex(course => course.id == course.id);
+      COURSES[index] = course;
+    }
+  }
+
 }
 
 var COURSES: Course[] = [
