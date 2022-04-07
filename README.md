@@ -18,16 +18,16 @@ O Course Manager é uma aplicação simples criada para aprofundamento nos conce
 
 | Desktop  |
 |---|
-| ![Home_screen_de](https://github.com/EricEOL/ignews/blob/main/readme_images/home.png)  |
+| ![Home_screen_de](https://github.com/EricEOL/course_manager_angular/blob/main/src/assets/images/principal.png)  |
 
 ### 2 - Filtro de cursos
 
 | Desktop  |
 |---|
-| ![All_posts_screen_de](https://github.com/EricEOL/ignews/blob/main/readme_images/all_posts.jpg)  |
+| ![filter_screen_de](https://github.com/EricEOL/course_manager_angular/blob/main/src/assets/images/fitler.png)  |
 
 ### 3 - Página de alteração de informações
 
 | Desktop  |
 |---|
-| ![Post_screen_de](https://github.com/EricEOL/ignews/blob/main/readme_images/post.jpg)  |
+| ![Edit_screen_de](https://github.com/EricEOL/course_manager_angular/blob/main/src/assets/images/edit.png)  |
