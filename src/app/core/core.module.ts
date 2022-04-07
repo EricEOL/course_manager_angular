@@ -6,13 +6,17 @@ import { NavBarComponent } from "./component/nav-bar/nav-bar.component";
 @NgModule({
   declarations: [
     NavBarComponent,
-    Error404Component
   ],
   exports: [
     NavBarComponent
   ],
   imports: [
     RouterModule.forChild([
+      {
+        path: '', 
+        redirectTo: 'courses',
+        pathMatch: 'full'
+      },
       {
         path: '**',
         component: Error404Component
